@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Inspection auto avant achat Bordeaux</title>
+
+<meta name="description" content="Inspection auto avant achat à Bordeaux. Inspection complète + négociation du prix.">
+
+<style>
+body {font-family: Arial; margin:0; background:#f5f5f5;}
+header {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1580273916550-e323be2ae537');
+background-size: cover;
+color:white; padding:60px 20px; text-align:center;
+}
+.container {padding:20px; text-align:center;}
+.btn {
+background:#e53935; color:white; padding:15px; font-size:18px;
+border:none; border-radius:10px; margin:10px;
+}
+.phone {font-size:28px; margin:20px 0;}
+.card {
+background:white; padding:15px; margin:15px auto;
+border-radius:12px; max-width:400px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+form {
+background:white; padding:20px; border-radius:12px;
+max-width:400px; margin:auto;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+input, textarea {
+width:90%; padding:10px; margin:8px;
+border-radius:8px; border:1px solid #ccc;
+}
+footer {margin-top:30px; font-size:12px; padding:20px;}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🚗 Inspection auto avant achat</h1>
+<p>Bordeaux & Gironde</p>
+</header>
+
+<div class="container">
+
+<div class="phone">
+📞 <a href="tel:0786550411">07 86 55 04 11</a>
+</div>
+
+<a href="tel:0786550411"><button class="btn">Appeler</button></a>
+<a href="https://wa.me/33786550411"><button class="btn">WhatsApp</button></a>
+
+<div class="card">
+<h3>Inspection complète</h3>
+<p>Intérieur, extérieur, châssis, moteur + diagnostic valise</p>
+</div>
+
+<div class="card">
+<h3>Négociation du prix</h3>
+<p>Je vous fais économiser avant achat</p>
+</div>
+
+<div class="card">
+<h3>Tarif</h3>
+<p>150€ + 20% des économies réalisées</p>
+</div>
+
+<h2>Demande de rappel</h2>
+
+<form action="TON_URL_FORM" method="POST">
+<input type="text" name="nom" placeholder="Nom" required>
+<input type="tel" name="telephone" placeholder="Téléphone" required>
+<textarea name="message" placeholder="Votre demande"></textarea>
+<button class="btn" type="submit">Envoyer</button>
+</form>
+
+<footer>
+Inspection auto avant achat Bordeaux - Gironde
+</footer>
+
+</div>
+
+</body>
+</html>
